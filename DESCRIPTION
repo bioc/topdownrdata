@@ -1,0 +1,14 @@
+Package: topdowndata
+Version: 0.1
+Title: Example files for the topdown R package
+Authors@R: c(person("Sebastian", "Gibb", role=c("aut", "cre"), email="mail@sebastiangibb.de"),
+             person("Pavel", "Shliaha", role=c("aut"), email="pavels@bmb.sdu.dk"))
+Description:
+  Histone H2A data generated on a Thermo Orbitrap Lumos MS device.
+Suggests: topdown
+biocViews: ExperimentData, MassSpectrometryData
+License: GPL (>= 3)
+NeedsCompilation: no
+URL: https://github.com/sgibb/topdowndata/
+BugReports: https://github.com/sgibb/topdowndata/issues/
+RoxygenNote: 6.0.1
