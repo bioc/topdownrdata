@@ -4,7 +4,7 @@ Title: Example files for the topdown R package
 Authors@R: c(person("Sebastian", "Gibb", role=c("aut", "cre"), email="mail@sebastiangibb.de"),
              person("Pavel", "Shliaha", role=c("aut"), email="pavels@bmb.sdu.dk"))
 Description:
-  Example data for the topdown package generated on a Thermo Orbitrap Lumos MS device.
+  Example data for the topdown package generated on a Thermo Orbitrap Fusion Lumos MS device.
 Suggests: topdown
 biocViews: ExperimentData, MassSpectrometryData
 License: GPL (>= 3)

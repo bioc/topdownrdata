@@ -3,6 +3,8 @@
 #' This function returns the path to the example files accompanying
 #' the [topdown::topdown-package].
 #'
+#' See [topdowndata-package] for a description of the datasets.
+#'
 #' @param protein `character`, name of the dataset.
 #'
 #' @return `character`, path to the directory containing the example
