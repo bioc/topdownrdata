@@ -3,8 +3,8 @@
 #' This package contains example files accompanying
 #' the [topdown::topdown-package].
 #'
-#' It has just one function [topDownDataPath] that returns the file path to the
-#' 5 example protein datasets.
+#' It has just one function [topDownDataPath] that returns the file path to
+#' the 5 example protein datasets.
 #'
 #' All 5 proteins were infused into a Thermo Orbitrap Fusion Lumos at 600
 #' nl/minute in 50 \% acetonitrile 0.1 % FA and sprayed at through
@@ -29,12 +29,19 @@
 #' \subsection{General Information}{
 #'
 #' \tabular{llllrr}{
-#' protein name \tab uniprot accession \tab product number \tab modifications \tab monoisotopic mass observed \tab monoisotopic mass predicted \cr
-#' horse myoglobin \tab P68082 \tab sigma M1882 \tab Met-loss \tab 16940.99 \tab 16940.96 \cr
-#' bovine carbonic anhydrase \tab P00921 \tab sigma C2522 \tab Met-loss + Acetyl \tab 29006.76 \tab 29006.83 \cr
-#' histone H3.3 \tab P84243 \tab NEB M2507S \tab Met-loss \tab 15187.49 \tab 15187.46 \cr
-#' histone H4 \tab P62805 \tab NEB M2504S \tab Met-loss \tab 11229.33 \tab 11229.34 \cr
-#' C3a recombinant protein \tab P01024 part (672-748) \tab recombinantly expressed \tab carbamidomethyl \tab 9814.9.0 \tab 9814.88 \cr
+#' protein name \tab uniprot accession \tab product number \tab
+#' modifications \tab monoisotopic mass observed \tab
+#' monoisotopic mass predicted \cr
+#' horse myoglobin \tab P68082 \tab sigma M1882 \tab
+#' Met-loss \tab 16940.99 \tab 16940.96 \cr
+#' bovine carbonic anhydrase \tab P00921 \tab sigma C2522 \tab
+#' Met-loss + Acetyl \tab 29006.76 \tab 29006.83 \cr
+#' histone H3.3 \tab P84243 \tab NEB M2507S \tab
+#' Met-loss \tab 15187.49 \tab 15187.46 \cr
+#' histone H4 \tab P62805 \tab NEB M2504S \tab
+#' Met-loss \tab 11229.33 \tab 11229.34 \cr
+#' C3a recombinant protein \tab P01024 part (672-748) \tab
+#' recombinantly expressed \tab carbamidomethyl \tab 9814.9.0 \tab 9814.88 \cr
 #' }
 #'
 #' }

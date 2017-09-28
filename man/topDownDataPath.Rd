@@ -21,7 +21,6 @@ the \link[topdown:topdown-package]{topdown::topdown-package}.
 See \link{topdowndata-package} for a description of the datasets.
 }
 \examples{
-library("topdowndata")
 topDownDataPath("myoglobin")
 }
 \seealso{
