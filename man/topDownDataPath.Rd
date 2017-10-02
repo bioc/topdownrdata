@@ -15,16 +15,16 @@ files.
 }
 \description{
 This function returns the path to the example files accompanying
-the \link[topdown:topdown-package]{topdown::topdown-package}.
+the \link[topdownr:topdownr-package]{topdownr::topdownr-package}.
 }
 \details{
-See \link{topdowndata-package} for a description of the datasets.
+See \link{topdownrdata-package} for a description of the datasets.
 }
 \examples{
 topDownDataPath("myoglobin")
 }
 \seealso{
-\link[topdown:topdown-package]{topdown::topdown-package}
+\link[topdownr:topdownr-package]{topdownr::topdownr-package}
 }
 \author{
 Sebastian Gibb \email{mail@sebastiangibb.de}

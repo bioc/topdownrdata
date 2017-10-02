@@ -1,7 +1,7 @@
-#' Example data for the  topdown.
+#' Example data for the  topdownr.
 #'
 #' This package contains example files accompanying
-#' the [topdown::topdown-package].
+#' the [topdownr::topdownr-package].
 #'
 #' It has just one function [topDownDataPath] that returns the file path to
 #' the 5 example protein datasets.
@@ -13,7 +13,7 @@
 #' The .meth files were created with the following command:
 #'
 #' ```
-#' library("topdown")
+#' library("topdownr")
 #'
 #' writeMethodXmls(defaultMs1Settings(LastMass=1600),
 #'                 defaultMs2Settings(),
@@ -60,10 +60,11 @@
 #' }
 #'
 #' @docType package
-#' @name topdowndata-package
-#' @author Sebastian Gibb \email{mail@@sebastiangibb.de}
-#' @references \url{https://github.com/sgibb/topdowndata/}
-#' @seealso [topDownDataPath()], [topdown::topdown-package]
+#' @name topdownrdata-package
+#' @author Pavel Shliaha \email{pavels@bmb.sdu.dk},
+#' Sebastian Gibb \email{mail@@sebastiangibb.de}
+#' @references \url{https://github.com/sgibb/topdownrdata/}
+#' @seealso [topDownDataPath()], [topdownr::topdownr-package]
 #' @keywords package
 #'
 "_PACKAGE"

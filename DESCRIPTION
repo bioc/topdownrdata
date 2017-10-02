@@ -1,16 +1,17 @@
-Package: topdowndata
+Package: topdownrdata
 Version: 0.99.0
-Title: Example Files for the topdown R Package
+Title: Example Files for the topdownr R Package
 Authors@R: c(person("Sebastian", "Gibb", role=c("aut", "cre"), email="mail@sebastiangibb.de"),
              person("Pavel", "Shliaha", role="aut", email="pavels@bmb.sdu.dk"),
              person(c("Ole", "Nørregaard"), "Jensen", role="aut", email="jenseno@bmb.sdu.dk"))
 Description:
-  Example data for the topdown package generated on a Thermo Orbitrap Fusion Lumos MS device.
-Suggests: topdown
+  Example data for the topdownr package generated on a Thermo Orbitrap Fusion Lumos MS device.
+Suggests: topdownr
 biocViews: ExperimentData, MassSpectrometryData
 License: GPL (>= 3)
 NeedsCompilation: no
-URL: https://github.com/sgibb/topdowndata/
-BugReports: https://github.com/sgibb/topdowndata/issues/
-RoxygenNote: 6.0.1
+URL: https://github.com/sgibb/topdownrdata/
+BugReports: https://github.com/sgibb/topdownrdata/issues/
+RoxygenNote: 6.0.1.9000
 Roxygen: list(markdown=TRUE)
+Encoding: UTF-8
