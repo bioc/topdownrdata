@@ -10,7 +10,8 @@
 #' nl/minute in 50 \% acetonitrile 0.1 % FA and sprayed at through
 #' FS360-20-10-5-6.35CT emitter.
 #'
-#' The .meth files were created with the following command:
+#' The .meth files were created with the following
+#' command:
 #'
 #' ```
 #' library("topdownr")
@@ -64,7 +65,8 @@
 #' @author Pavel Shliaha \email{pavels@bmb.sdu.dk},
 #' Sebastian Gibb \email{mail@@sebastiangibb.de}
 #' @references \url{https://github.com/sgibb/topdownrdata/}
-#' @seealso [topDownDataPath()], \url{https://sgibb.github.io/topdownr/}
+#' @seealso [topDownDataPath()],
+#' \url{https://sgibb.github.io/topdownr/}
 #' @keywords package
 #'
 "_PACKAGE"

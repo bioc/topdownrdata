@@ -17,7 +17,8 @@ All 5 proteins were infused into a Thermo Orbitrap Fusion Lumos at 600
 nl/minute in 50 \% acetonitrile 0.1 % FA and sprayed at through
 FS360-20-10-5-6.35CT emitter.
 
-The .meth files were created with the following command:\preformatted{library("topdownr")
+The .meth files were created with the following
+command:\preformatted{library("topdownr")
 
 writeMethodXmls(defaultMs1Settings(LastMass=1600),
                 defaultMs2Settings(),
@@ -67,7 +68,8 @@ C3a recombinant protein \tab 745.2/17 \tab 908.0/14 \tab 1162.0/11 \cr
 \url{https://github.com/sgibb/topdownrdata/}
 }
 \seealso{
-\code{\link[=topDownDataPath]{topDownDataPath()}}, \url{https://sgibb.github.io/topdownr/}
+\code{\link[=topDownDataPath]{topDownDataPath()}},
+\url{https://sgibb.github.io/topdownr/}
 }
 \author{
 Pavel Shliaha \email{pavels@bmb.sdu.dk},
