@@ -4,9 +4,6 @@ cache: packages
 
 r: bioc-devel
 
-env:
-  global: _R_CHECK_FORCE_SUGGESTS_=FALSE
-
 warnings_are_errors: true
 
 notifications:
