@@ -1,7 +1,7 @@
-#' Example data for the  topdownr.
+#' Example Data for the topdownr package.
 #'
 #' This package contains example files accompanying
-#' the [topdownr::topdownr-package].
+#' the `topdownr`.
 #'
 #' It has just one function [topDownDataPath] that returns the file path to
 #' the 5 example protein datasets.
@@ -64,7 +64,7 @@
 #' @author Pavel Shliaha \email{pavels@bmb.sdu.dk},
 #' Sebastian Gibb \email{mail@@sebastiangibb.de}
 #' @references \url{https://github.com/sgibb/topdownrdata/}
-#' @seealso [topDownDataPath()], [topdownr::topdownr-package]
+#' @seealso [topDownDataPath()], \url{https://sgibb.github.io/topdownr/}
 #' @keywords package
 #'
 "_PACKAGE"

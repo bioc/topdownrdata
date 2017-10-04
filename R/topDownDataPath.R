@@ -1,7 +1,7 @@
-#' TopDown Proteomic datasets
+#' TopDown Proteomic Datasets
 #'
 #' This function returns the path to the example files accompanying
-#' the [topdownr::topdownr-package].
+#' the `topdownr`.
 #'
 #' See [topdownrdata-package] for a description of the datasets.
 #'
@@ -10,7 +10,7 @@
 #' @return `character`, path to the directory containing the example
 #' files.
 #' @author Sebastian Gibb \email{mail@@sebastiangibb.de}
-#' @seealso [topdownr::topdownr-package]
+#' @seealso \url{https://sgibb.github.io/topdownr/}
 #' @export
 #' @examples
 #' topDownDataPath("myoglobin")

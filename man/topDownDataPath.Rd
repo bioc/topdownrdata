@@ -2,7 +2,7 @@
 % Please edit documentation in R/topDownDataPath.R
 \name{topDownDataPath}
 \alias{topDownDataPath}
-\title{TopDown Proteomic datasets}
+\title{TopDown Proteomic Datasets}
 \usage{
 topDownDataPath(protein = c("myoglobin", "ca", "h3_3", "h4", "c3a"))
 }
@@ -15,7 +15,7 @@ files.
 }
 \description{
 This function returns the path to the example files accompanying
-the \link[topdownr:topdownr-package]{topdownr::topdownr-package}.
+the \code{topdownr}.
 }
 \details{
 See \link{topdownrdata-package} for a description of the datasets.
@@ -24,7 +24,7 @@ See \link{topdownrdata-package} for a description of the datasets.
 topDownDataPath("myoglobin")
 }
 \seealso{
-\link[topdownr:topdownr-package]{topdownr::topdownr-package}
+\url{https://sgibb.github.io/topdownr/}
 }
 \author{
 Sebastian Gibb \email{mail@sebastiangibb.de}

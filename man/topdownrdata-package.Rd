@@ -4,10 +4,10 @@
 \name{topdownrdata-package}
 \alias{topdownrdata}
 \alias{topdownrdata-package}
-\title{Example data for the  topdownr.}
+\title{Example Data for the topdownr package.}
 \description{
 This package contains example files accompanying
-the \link[topdownr:topdownr-package]{topdownr::topdownr-package}.
+the \code{topdownr}.
 }
 \details{
 It has just one function \link{topDownDataPath} that returns the file path to
@@ -67,7 +67,7 @@ C3a recombinant protein \tab 745.2/17 \tab 908.0/14 \tab 1162.0/11 \cr
 \url{https://github.com/sgibb/topdownrdata/}
 }
 \seealso{
-\code{\link[=topDownDataPath]{topDownDataPath()}}, \link[topdownr:topdownr-package]{topdownr::topdownr-package}
+\code{\link[=topDownDataPath]{topDownDataPath()}}, \url{https://sgibb.github.io/topdownr/}
 }
 \author{
 Pavel Shliaha \email{pavels@bmb.sdu.dk},
