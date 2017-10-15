@@ -3,12 +3,38 @@
 #' This package contains example files accompanying
 #' the `topdownr`.
 #'
-#' It has just one function [topDownDataPath] that returns the file path to
+#' It has just one function [topDownDataPath()] that returns the file path to
 #' the 5 example protein datasets.
 #'
-#' All 5 proteins were infused into a Thermo Orbitrap Fusion Lumos at 600
-#' nl/minute in 50 \% acetonitrile 0.1 % FA and sprayed at through
-#' FS360-20-10-5-6.35CT emitter.
+#' Each dataset has four different categories of files:
+#'
+#' * One `.fasta` file containing the protein sequence.
+#' * Multiple `.experiments.csv`, `.txt`, and `.mzML` files (the same number
+#' of files for each of the three types):
+#'      * The `.experiments.csv` files contain the information about the used
+#'      method and the settings of the mass spectrometer
+#'      (fragmentation conditions).
+#'      * The `.txt` scan header files contain (additional) information about
+#'      the spectra (monoisotopic *m/z*, ion injection time, ...).
+#'      * The `.mzML` files contain the deconvoluted spectra.
+#'
+#' In total this package has 323 files: a `.fasta` file for each protein (5) and
+#' 20 files of each of the three method/spectra information files for every
+#' protein except for the *C3a recombinant protein* that has 26 of each.
+#'
+#' The `topdownr` package needs all the four file types. The sequence
+#' information of the `.fasta` file is used to calculate the fragmentation
+#' *in-silico*. The theoretical fragments are matched against the experimental
+#' seen fragments that are stored in the `.mzML` files. In the next step the
+#' fragmentation data have to be combined with the general information about
+#' spectra and the fragmentation condition from the `.txt` scan header and the
+#' `.experiments.csv` method files, respectively.
+#'
+#' In combination these information could be used to investigate fragmentation
+#' conditions and to find the one (or more) that maximise the overall
+#' fragment coverage. Please see
+#' `vignette("analysis", package="topdownr")`
+#' for an example analysis.
 #'
 #' The .meth files were created with the following
 #' command:
@@ -24,7 +50,7 @@
 #'                 mz=cbind(mass=c(745.2, 908.0, 1162.0), z=c(1, 1, 1)),
 #'                 groupBy=c("replication", "ETDReactionTime"),
 #'                 replications=2,
-#'                 pattern="method_CA3_%s.xml")
+#'                 pattern="method_CA3_\\%s.xml")
 #' ```
 #'
 #' \subsection{General Information}{
@@ -44,6 +70,10 @@
 #' C3a recombinant protein \tab P01024 part (672-748) \tab
 #' recombinantly expressed \tab carbamidomethyl \tab 9814.9.0 \tab 9814.88 \cr
 #' }
+#'
+#' All 5 proteins were infused into a Thermo Orbitrap Fusion Lumos at 600
+#' nl/minute in 50 \% acetonitrile 0.1 % FA and sprayed at through
+#' FS360-20-10-5-6.35CT emitter.
 #'
 #' }
 #'
