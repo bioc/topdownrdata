@@ -1,5 +1,5 @@
 Package: topdownrdata
-Version: 0.99.1
+Version: 0.99.2
 Title: Example Files for the topdownr R Package
 Authors@R: c(person("Sebastian", "Gibb", role=c("aut", "cre"), email="mail@sebastiangibb.de"),
              person("Pavel", "Shliaha", role="aut", email="pavels@bmb.sdu.dk"),
