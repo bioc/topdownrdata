@@ -16,11 +16,11 @@
 #' topDownDataPath("myoglobin")
 topDownDataPath <- function(protein=c("myoglobin", "ca", "h3_3", "h4", "c3a")) {
     path <- c(
-        myoglobin="2017_06_29_myo",
-        ca="2017_07_03_CA",
-        "h3_3"="2017_07_05_H3_3",
-        h4="2017_07_07_H4",
-        c3a="2017_07_08_C3A"
+        myoglobin="20170629_myo",
+        ca="20170703_ca",
+        "h3_3"="20170705_h3_3",
+        h4="20170707_h4",
+        c3a="20170708_c3a"
     )
     system.file(
         file.path("extdata", path[match.arg(protein)]),
