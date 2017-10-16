@@ -6,6 +6,7 @@ Authors@R: c(person("Sebastian", "Gibb", role=c("aut", "cre"), email="mail@sebas
              person(c("Ole", "Nørregaard"), "Jensen", role="aut", email="jenseno@bmb.sdu.dk"))
 Description:
   Example data for the topdownr package generated on a Thermo Orbitrap Fusion Lumos MS device.
+Depends: topdownr
 biocViews: ExperimentData, MassSpectrometryData
 License: GPL (>= 3)
 NeedsCompilation: no

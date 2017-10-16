@@ -98,5 +98,5 @@
 #' @seealso [topDownDataPath()],
 #' \url{https://sgibb.github.io/topdownr/}
 #' @keywords package
-#'
+#' @import topdownr
 "_PACKAGE"
