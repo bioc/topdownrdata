@@ -6,6 +6,9 @@ r: bioc-devel
 
 warnings_are_errors: true
 
+r_github_packages:
+  - sgibb/topdowndata
+
 notifications:
   email:
     on_success: change
