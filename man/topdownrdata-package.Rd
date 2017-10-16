@@ -42,9 +42,9 @@ spectra and the fragmentation condition from the \code{.txt} scan header and the
 
 In combination these information could be used to investigate fragmentation
 conditions and to find the one (or more) that maximise the overall
-fragment coverage. Please see
-\code{vignette("analysis", package="topdownr")}
-for an example analysis.
+fragment coverage. Please see a small example on the end of this manual page
+and a full featured example analysis in the \code{topdownr} analysis vignette:
+\code{vignette("analysis", package="topdownr")}.
 
 The .meth files were created with the following
 command:\preformatted{library("topdownr")
@@ -97,12 +97,57 @@ C3a recombinant protein \tab 745.2/17 \tab 908.0/14 \tab 1162.0/11 \cr
 
 }
 }
+\examples{
+# List file categories
+list.files(topdownrdata::topDownDataPath("myoglobin"))
+
+# List all needed files
+list.files(topdownrdata::topDownDataPath("myoglobin"), recursive=TRUE)
+
+# Read files, predict fragments and combine spectra information
+tds <- readTopDownFiles(
+    path=topDownDataPath("myoglobin"),
+    ## Use an artifical pattern to load just the fasta
+    ## file and files from m/z == 1211, ETD reagent
+    ## target 1e6 and first replicate to keep runtime
+    ## of the example short
+    pattern=".*fasta.gz$|1211_.*1e6_1"
+)
+
+# Show TopDownSet object
+tds
+
+# Filter all intensities that don't have at least 10 \% of the highest
+# intensity per fragment.
+tds <- filterIntensity(tds, threshold=0.1)
+
+# Filter all conditions with a CV above 30 \% (across technical replicates)
+tds <- filterCv(tds, threshold=30)
+
+# Filter all conditions with a large deviation in injection time
+tds <- filterInjectionTime(tds, maxDeviation=log2(3), keepTopN=2)
+
+# Filter all conditions where fragments don't replicate
+tds <- filterNonReplicatedFragments(tds)
+
+# Normalise by TIC
+tds <- normalize(tds)
+
+# Aggregate technical replicates
+tds <- aggregate(tds)
+
+# Coerce to NCBSet (N-/C-terminal/Bidirectional) and plot fragment coverage
+fragmentationMap(as(tds, "NCBSet"))
+}
 \references{
 \url{https://github.com/sgibb/topdownrdata/}
 }
 \seealso{
-\code{\link[=topDownDataPath]{topDownDataPath()}},
-\url{https://sgibb.github.io/topdownr/}
+\code{\link[=topDownDataPath]{topDownDataPath()}}, \link{topdownr-package},\cr
+Vignettes for
+the generation \code{vignette("data-generation", package="topdownr")}
+and analysis of these data \code{vignette("analysis", package="topdownr")}.\cr
+Website: \url{https://sgibb.github.io/topdownr/}
 }
 \author{
 Pavel Shliaha \email{pavels@bmb.sdu.dk},
