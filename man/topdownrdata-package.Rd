@@ -28,9 +28,10 @@ the spectra (monoisotopic \emph{m/z}, ion injection time, ...).
 }
 }
 
-In total this package has 323 files: a \code{.fasta} file for each protein (5) and
+In total this package has 341 files: a \code{.fasta} file for each protein (5) and
 20 files of each of the three method/spectra information files for every
-protein except for the \emph{C3a recombinant protein} that has 26 of each.
+protein except for the \emph{bovine carbonic anhydrase} and
+\emph{C3a recombinant protein} which have 26 of each.
 
 The \code{topdownr} package needs all the four file types. The sequence
 information of the \code{.fasta} file is used to calculate the fragmentation

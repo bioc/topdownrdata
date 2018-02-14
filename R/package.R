@@ -18,9 +18,10 @@
 #'      the spectra (monoisotopic *m/z*, ion injection time, ...).
 #'      * The `.mzML` files contain the deconvoluted spectra.
 #'
-#' In total this package has 323 files: a `.fasta` file for each protein (5) and
+#' In total this package has 341 files: a `.fasta` file for each protein (5) and
 #' 20 files of each of the three method/spectra information files for every
-#' protein except for the *C3a recombinant protein* that has 26 of each.
+#' protein except for the *bovine carbonic anhydrase* and
+#' *C3a recombinant protein* which have 26 of each.
 #'
 #' The `topdownr` package needs all the four file types. The sequence
 #' information of the `.fasta` file is used to calculate the fragmentation
