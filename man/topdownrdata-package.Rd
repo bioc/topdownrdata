@@ -48,7 +48,9 @@ and a full featured example analysis in the \code{topdownr} analysis vignette:
 \code{vignette("analysis", package="topdownr")}.
 
 The .meth files were created with the following
-command:\preformatted{library("topdownr")
+command:
+
+\if{html}{\out{<div class="sourceCode">}}\preformatted{library("topdownr")
 
 writeMethodXmls(defaultMs1Settings(LastMass=1600),
                 defaultMs2Settings(),
@@ -58,8 +60,8 @@ writeMethodXmls(defaultMs1Settings(LastMass=1600),
                 mz=cbind(mass=c(745.2, 908.0, 1162.0), z=c(1, 1, 1)),
                 groupBy=c("replication", "ETDReactionTime"),
                 replications=2,
-                pattern="method_CA3_\\\%s.xml")
-}
+                pattern="method_CA3_\\\\\%s.xml")
+}\if{html}{\out{</div>}}
 
 \subsection{General Information}{
 
@@ -80,7 +82,7 @@ recombinantly expressed \tab carbamidomethyl \tab 9814.9.0 \tab 9814.88 \cr
 }
 
 All 5 proteins were infused into a Thermo Orbitrap Fusion Lumos at 600
-nl/minute in 50 \% acetonitrile 0.1 % FA and sprayed at through
+nl/minute in 50 \\% acetonitrile 0.1 \% FA and sprayed at through
 FS360-20-10-5-6.35CT emitter.
 
 }
@@ -141,14 +143,13 @@ tds <- aggregate(tds)
 fragmentationMap(as(tds, "NCBSet"))
 }
 \references{
-\url{https://github.com/sgibb/topdownrdata/}
+\url{https://codeberg.org/sgibb/topdownrdata/}
 }
 \seealso{
 \code{\link[=topDownDataPath]{topDownDataPath()}}, \link{topdownr-package},\cr
 Vignettes for
 the generation \code{vignette("data-generation", package="topdownr")}
 and analysis of these data \code{vignette("analysis", package="topdownr")}.\cr
-Website: \url{https://sgibb.github.io/topdownr/}
 }
 \author{
 Pavel Shliaha \email{pavels@bmb.sdu.dk},

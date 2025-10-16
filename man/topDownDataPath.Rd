@@ -23,9 +23,6 @@ See \link{topdownrdata-package} for a description of the datasets.
 \examples{
 topDownDataPath("myoglobin")
 }
-\seealso{
-\url{https://sgibb.github.io/topdownr/}
-}
 \author{
 Sebastian Gibb \email{mail@sebastiangibb.de}
 }

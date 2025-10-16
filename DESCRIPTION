@@ -10,8 +10,8 @@ Depends: topdownr
 biocViews: ExperimentData, MassSpectrometryData
 License: GPL (>= 3)
 NeedsCompilation: no
-URL: https://github.com/sgibb/topdownrdata/
-BugReports: https://github.com/sgibb/topdownrdata/issues/
-RoxygenNote: 6.0.1.9000
+URL: https://codeberg.org/sgibb/topdownrdata/
+BugReports: https://codeberg.org/sgibb/topdownrdata/issues/
+RoxygenNote: 7.3.2
 Roxygen: list(markdown=TRUE)
 Encoding: UTF-8

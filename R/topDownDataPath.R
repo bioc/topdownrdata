@@ -10,7 +10,6 @@
 #' @return `character`, path to the directory containing the example
 #' files.
 #' @author Sebastian Gibb \email{mail@@sebastiangibb.de}
-#' @seealso \url{https://sgibb.github.io/topdownr/}
 #' @export
 #' @examples
 #' topDownDataPath("myoglobin")

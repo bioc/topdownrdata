@@ -95,12 +95,11 @@
 #' @name topdownrdata-package
 #' @author Pavel Shliaha \email{pavels@bmb.sdu.dk},
 #' Sebastian Gibb \email{mail@@sebastiangibb.de}
-#' @references \url{https://github.com/sgibb/topdownrdata/}
+#' @references \url{https://codeberg.org/sgibb/topdownrdata/}
 #' @seealso [topDownDataPath()], [topdownr-package],\cr
 #' Vignettes for
 #' the generation `vignette("data-generation", package="topdownr")`
 #' and analysis of these data `vignette("analysis", package="topdownr")`.\cr
-#' Website: \url{https://sgibb.github.io/topdownr/}
 #' @keywords package
 #' @import topdownr
 #' @examples
